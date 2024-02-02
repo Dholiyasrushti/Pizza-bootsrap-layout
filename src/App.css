@@ -1,0 +1,217 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+
+.banner_img{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.738),rgba(12, 12, 12, 0.716)) ,url(image/pizza-banner.webp);
+  height: 1000px;
+  background-size:cover ;
+  background-position: center center;
+}
+.banner_img img{
+  width: 100%;
+}
+header{
+  color: white;
+  /* font-family: Plus Jakarta Sans; */
+}
+.menu{
+  /* margin: 0p0px; */
+  font-weight: 600;
+}
+
+.btn{
+  border-radius:0;
+  padding: 13px 30px;
+  background-color: #DD5903;
+  border: 2px solid #DD5903;
+  color: white;
+}
+.btn:hover{
+  border: 2px solid white;
+}
+.offcanvas-header img{
+  width: 200px !important;
+  height: 100px !important;
+  margin-top: 100px;
+}
+.offcanvas-body div{
+  text-align: center;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+.shape span{
+  width: 10px;
+  height: 10px;
+  background-color: #DD5903;
+  transform: rotate(45deg);
+  margin: 0px 10px ;
+}
+.btn-close{
+  background-color: #DD5903;
+  padding-right:20px ;
+}
+.btn-primary{
+  background-color:transparent!important;
+  border: none;
+}
+.btn-primary:hover{
+  border: none;
+}
+button:focus{
+  box-shadow: none !important;
+}
+.offcanvas-header .btn-close img{
+  margin-top:  0px;
+  text-align: start;
+}
+.dots span{
+  background-color: white;
+  border-radius: 50%;
+  display: block;
+  width: 5px;
+  height: 5px;
+  transition: none;
+  cursor: pointer;
+  list-style: none;
+  margin: 2px 2px;
+  padding: 3px;
+}
+.btn2{
+  width: 170px;
+  /* margin:0px 400px; */
+}
+.btn2_1{
+  width: 170px;
+  margin-left: 20px;
+  border-radius:0;
+  padding: 13px 30px;
+  /* background-color: #DD5903; */
+  border: 2px solid white;
+  color: white;
+}
+.btn2_1:hover{
+  border: 2px solid #DD5903;
+  background-color: #DD5903;
+  color: white;
+}
+.banner_title{
+  font-size:70px;
+  font-family: Arapey;
+  width: 70%;
+  text-align: center;
+  margin:  auto;
+}
+.banner_text{
+  /* left: 200px; */
+  margin: 0 auto;
+  top: 200px;
+}
+/* ===================================================================section 2====================================================== */
+.sec2_img img{
+  width: 100%;
+}
+.sec_2 .shape span{
+  background-color: rgb(197, 195, 195);
+}
+.sec_2 .h1,
+.sec_3 .h1{
+  font-family:  Arapey;
+}
+.s2_hover a:hover{
+  color: #DD5903 !important;
+  cursor: pointer;
+}
+/* ========================================================section 3===================================================================== */
+.sec_3{
+  background-image: url(./image/bg-pizza.webp);
+  background-attachment: fixed;
+  background-size: cover;
+  /* height: 100vh; */
+  background-position:center;
+}
+.pizza_img div img{
+  width: 200%;
+}
+.sec_3 .h2,
+.h3,.h1{
+  font-family:Arapey ;
+}
+.sec_3 a:hover div {
+  color: #DD5903;
+}
+.sec_3 a:hover .sec_btn{
+  background-color: #DD5903 !important;
+  color: white !important;
+}
+.sm div img{
+  width:100%;
+  height: 100%;
+}
+/* ===============================================================section 4====================================================== */
+.bg_4{
+  background-image: url(./image/bg-02.webp);
+  height: 100%;
+  padding-top: 100px;
+  background-size: cover;
+  background-position: center;
+}
+.btn3{
+  border-radius:0;
+  padding: 13px 30px;
+  background-color: #DD5903;
+  border: 2px solid #DD5903;
+  color: white;
+}
+.btn3:hover{
+  border: 2px solid white;
+  background-color: transparent;
+}
+.owl-carousel .owl-item img{
+    filter: brightness(0.5);
+}
+.item{
+  margin: 20px;
+
+}
+.card-img-top{
+  /* margin: 20px; */
+
+    transform: scale(1);
+    transition: .3s ease-in-out;
+    border-radius: 0;
+}
+.owl-carousel .owl-item:hover .card-img-top{
+  transform: scale(1.1);
+}
+.card-body p:first-child{
+  width: 40%; 
+  background-color: #DD5903;
+}
+.card-body:hover .card-text p{
+  color: #DD5903;
+}
+.card-title{
+  margin-top: 200px;
+  color: #DD5903;
+}
+.card-text:last-child{
+  font-family:Arapey ;
+  font-size: 26px;
+}
+footer div img{
+  width: 27%;
+}
+.img-part-dry{
+  position: relative; 
+}
+.footer-1{
+  position:absolute;
+  top: 0;
+  width: 100%;
+}

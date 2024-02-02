@@ -1,0 +1,12 @@
+@media  screen and (max-width:992px) {
+    .banner_title{
+        font-size: 40px;
+    }
+    .banner_img{
+        height: 700px;
+    }
+    .item{
+        /* width: 300px; */
+        margin: 10px;
+    }
+}
